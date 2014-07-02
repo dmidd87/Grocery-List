@@ -3,14 +3,28 @@
     margin-right:auto;
     text-align:center;
     padding: 2em;
+    margin-top:2em
 }
 
 .gltitle {
     text-align:center;
-    font-family:arial;
-    font-size:2em;
+    font-family:Times;
+    font-size:3em;
     color:#5cb85c;
     font-weight: 100
     padding: 2em;
 }
 
+.btn-success {
+    float:right;
+    margin-top:-56px;
+    margin-right:250px;
+    
+}
+
+.btn-danger {
+    float:right;
+    margin-right:270px;
+    padding: 6px, 12px;
+    border-radius:2em;
+}
