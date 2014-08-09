@@ -4,26 +4,23 @@
         <title>Grocery List</title>
           <link href= "css/bootstrap.min.css" rel ="stylesheet">
           <link href= "css/grocery.css" rel ="stylesheet">
-          <script type= "http://code.jquery.com/jquery-latest.min.js" rel ="stylesheet"></script>
-          <script type="text/javascript" src="filepath/filename.js"></script>
+          <script src= "http://code.jquery.com/jquery-latest.min.js"></script>
+          <script type="text/javascript" src="js/app.js"></script>
     
-    
+
     </head>
       <body>
-        <div class ="gltitle">Grocery List</div>
+        <h1>Grocery List</h1>
             
-        <div id ="input">
-            <input type="text" name="listinput">  
-        </div>
-          
-        <a class="btn btn-success">Add to list</a>
-        <a class="btn btn-danger">Delete</a>
-          
-        <div class="list"><p></p></div>
-        <div class="list"><p></p></div>
-        <div class="list"><p></p></div>
-        <div class="list"><p></p></div>
-        
-          
+            
+              
+            
+        <input id="input" type="text">
+        <button class="btn-success" id="add" type="submit">Add</button>
+    
+    <div id = "list">
+        <ul>
+        </ul>
+    </div>
      </body>
 </html>

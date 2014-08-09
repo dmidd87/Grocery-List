@@ -1,8 +1,13 @@
 $(document).ready(function() {
-    if(e.keyCode === 13) {
-        getInput();
-    }
+
+    $("#add").click(function() {
+        var inputValue = $("#input").val();
+        
+        $("list").append("<p>"+inputValue+"<a class='delete'> X </a></p>");
+    });
+    
+    
 });
 
-function editButton() {
-    $(".edit").on(
+
+    
